@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="myFunction()">
+    <div id="preloader"></div>
+    <header>
+        <a href="#" class="logo">Portfolio-Rahul Bhatt</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Social</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span> Rahul Bhatt.</span></h2>
+            <h3>I'm an Intern at Oasis Infobyte.</h3>
+            <a href="#about" class="btn">About Me</a>
+            <br>
+            <div>
+                <a href="resume.pdf" class="btn2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="yellow"
+                        class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+                    </svg> Download CV
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm an Intern at Oasis Infobyte.</h3>
+                <p>Hey, I'm <b>Rahul</b>. I'm a web designer, professional blogger, and YouTuber. I've helped many
+                    people to get started with their blogs, create websites, and build their online stores. <br><br> <b>
+                        Rahul Bhatt</b> while writing this is a college student. But besides this, I'm a freelancer who
+                    used to make Websites and Logos. <br><br>
+
+                    Along with this, I'm also understanding the <b>SEO rankings</b> for the different Search engines, I
+                    own this website and some other of my websites that are usually non-profit and entertainment-based.
+                    <br>
+
+                    I started my journey in July 2020, At this time my college started and I started exploring the
+                    <b>IT/C.S</b> industry so that in the future I can be a part of the successful StartUp/Companies.
+                    <br><br>
+
+                    It's been about 2 years since I started my journey and have seen many ups and downs in my
+                    projects/professional and personal life also, but learning from my failures I keep moving forward
+                    and exploring more and more and bring those explored content in this platform.
+                </p>
+            </div>
+            <div class="w50">
+                <!-- <img src="img15.png" class="img"> -->
+                <img src="gif15.gif" class="img" id="gifimg">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>I have the following skills and I used to freelance by providing my services on various freelance
+                platforms like fiver, freelancer,etc.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Design</h2>
+                <p>From template making to frontend I can develop the website design templates and Logos also.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon2.png">
+                <h2>Web Development</h2>
+                <p>From template making to frontend I can develop the whole website.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon3.png">
+                <h2>Android App</h2>
+                <p>Being a web developer it also a part of deploying the apps of those websites that I make to the
+                    different app installing platforms.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.png">
+                <h2>Photography</h2>
+                <p>As a part of my pass-time I also do the Photography, specially the natural and wild-life Photography.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon5.png">
+                <h2>Content Writng</h2>
+                <p>At the start of my carreer in the I.T, I started doing the content writing for the YouTuber's and the
+                    blog writers, So that I can get money for my personal vages.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon6.png">
+                <h2>Video Editing</h2>
+                <p>Due to continous work with the YouTuber's, I also started doing the video editing for them.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Social Life</h2>
+            <p>Here, I share my latest work that, I have done recently.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product4.jpg">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>These are a few testimonials that I get from my cutomers for the work/services that I mentioned above.
+            </p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Thanks to Rahul, who helped me alot, for getting started with the blog writing on the web platforms.
+                    At the first, It becamed so confusing for me to understand what topics and interests, I need to
+                    focus on, but then I pinged him on LinkedIn, where he resolved all my confusion.</p>
+                <h3>Shantanu pandey<br><span>Blog Writer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Rahul is my Senior at college and He keep on helping his juniors and helps us to provide us a clear
+                    path in the field of computer science. He helped us to join the Google Cloud events and he even
+                    helped us to clear some difficult labs. He also shared us that how do we can make a strong resume so
+                    that the complanies can easily hire us.</p>
+                <h3>Rajat mishra<br><span>College student</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="youtube">
+        <iframe width="320" height="240" src="https://www.youtube.com/embed/P7HwLSpMJcA" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+
+    
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>For any query or help don't hesitate, just contact us!</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>83 Aman Nagar Colony,<br>Patiala, Punjab,<br>147001</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>123-456-7890</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>randomEmail123@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2022 Rahul Bhatt. All Right Reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
