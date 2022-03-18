@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Bhatt | Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Mobile-Guru</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#hero" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#main" onclick="toggleMenu();">Showcase</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            <a href="#" class="btn Quote">Get Your <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="rgb(255, 0, 0)" class="bi bi-phone" viewBox="0 0 16 16">
+                    <path
+                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg></a>
+        </ul>
+    </header>
+
+    <div class="allbgbg">
+        <section class="hero" id="hero">
+            <img src="triangle-top.png" class="traingle1" alt="loading">
+            <img src="triangle-left.png" class="traingle2" alt="loading">
+            <img src="circle.png" class="circle" alt="loading">
+
+            <div class="row">
+                <div class="col-1">
+                    <img src="man.png" alt="loading">
+                    <img src="elements.png" class="elements" alt="loading">
+                </div>
+                <div class="col-2">
+                    <h1>Get Latest<br><span>Insights</span> of Mobiles!</h1>
+                    <p><b>Mobile-Guru</b> provides the best and exact information regarding any mobile which you will be purchasing in the future. Here you can easily browse for anu mobile phone.</p>
+                    <a href="#" class="btn">Learn More</a> <a href="#contact">or Contact</a>
+                </div>
+            </div>
+        </section>
+        <section class="main" id="main">
+            <div class="information">
+                <div class="overlay">
+
+                </div>
+                <img src="mobile.png" class="mobile" alt="loading">
+                <div id="circle">
+                    <div class="feature one">
+                        <img src="camera.png" alt="loading">
+                        <div>
+                            <h1>Camera</h1>
+                            <p>12MP, Wide Angle Lens</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <img src="processor.png" alt="loading">
+                        <div>
+                            <h1>Processor</h1>
+                            <p>MediaTeck-Helio G95</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <img src="display.png" alt="loading">
+                        <div>
+                            <h1>Display</h1>
+                            <p>6.5" Mini-Drop Fullscreen</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <img src="battery.png" alt="loading">
+                        <div>
+                            <h1>Battery</h1>
+                            <p>5000mAh, 720Hrs Standby</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="arrow.png" alt="loading" id="upBtn">
+                <h3>Features</h3>
+                <img src="arrow.png" alt="loading" id="downBtn">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="heading white">
+                <h2>Contact Us</h2>
+                <p>For any query or help don't hesitate, just contact us!</p>
+            </div>
+            <div class="content">
+                <div class="contactInfo">
+                    <h3>Contact Info</h3>
+                    <div class="contactInfoBx">
+                        <div class="box">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>83 Aman Nagar Colony,<br>Patiala, Punjab,<br>147001</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>123-456-7890</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>randomEmail123@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Message Me</h3>
+                        <input type="text" name="" placeholder="Full Name">
+                        <input type="email" name="" placeholder="Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright © 2022 Rahul Bhatt. All Right Reserved.</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
